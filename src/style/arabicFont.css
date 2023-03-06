@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Utsmani Font";
+    src: url("../fonts/Scheherazade-New-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Utsmani Number";
+    src: url("../fonts/KFGQPC-Uthmanic-Script-HAFS-Regular.otf");
+}
+
+.arabic-font {
+    font-family: 'Utsmani Font';
+}
+
+.arabic-number {
+    font-family: 'Utsmani Number';
+}
