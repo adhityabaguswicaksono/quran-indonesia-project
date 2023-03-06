@@ -17,7 +17,7 @@ const NotFoundPage = () => {
                         Halaman Tidak Ditemukan!
                     </h1>
                     <p>
-                        Silahkan kembali ke <a href="./" className="text-decoration-none">halaman utama</a>...
+                        Silahkan kembali ke <a href="./" className="text-decoration-none">halaman utama</a>
                     </p>
                 </Container>
                 <FooterPage/>
