@@ -32,7 +32,7 @@ const TentangKamiPage = () => {
                         <p>
                             Sekian dari saya. Terima kasih telah mempercayakan web ini sebagai sarana untuk menuntut ilmu dan mendapatkan pahala oleh setiap pengguna.
                         </p>
-                        <h4 dir="rtl" className="arabic-fon mt-3t">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h4>
+                        <h4 dir="rtl" className="arabic-font mt-3">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h4>
                     </div>
                 </Container>
                 <FooterPage/>
