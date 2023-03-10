@@ -10,10 +10,10 @@ const NotFoundPage = () => {
             <Helmet>
                 <title>Halaman Tidak Ditemukan - Quran Indonesia</title>
             </Helmet>
-            <Container className="text-success lh-lg text-center">
+            <Container fluid className="text-success lh-lg text-center">
                 <HeaderPage/>
                 <Container className="my-5">
-                    <h1>
+                    <h1 className="mb-4">
                         Halaman Tidak Ditemukan!
                     </h1>
                     <p>

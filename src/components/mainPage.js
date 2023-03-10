@@ -50,9 +50,9 @@ const MainPage = () => {
                                             <h1>
                                                 {quran.number}
                                             </h1>
-                                            <h3>
+                                            <h4>
                                                 {quran.name}
-                                            </h3>
+                                            </h4>
                                         </Card.Title>
                                         <Card.Text>
                                                 {quran.translation}
@@ -92,9 +92,9 @@ const MainPage = () => {
                                         <h1>
                                             {quran.number}
                                         </h1>
-                                        <h3>
+                                        <h4>
                                             {quran.name}
-                                        </h3>
+                                        </h4>
                                     </Card.Title>
                                     <Card.Text>
                                         {quran.translation}
@@ -113,10 +113,10 @@ const MainPage = () => {
             <Helmet>
                 <title>Quran Indonesia</title>
             </Helmet>
-            <Container className="text-success lh-lg">
+            <Container fluid className="text-success lh-lg">
                 <HeaderPage/>
                 <Container className="text-center mt-4">
-                    <Form.Control type="text" onChange={searchSurah} placeholder="Ketik Nama / Nomor / Terjemahan Surat..." className="p-2 w-100 rounded border border-success"></Form.Control>
+                    <Form.Control type="text" onChange={searchSurah} placeholder="Ketik Nama / Nomor / Terjemahan Surat..." className="p-2 w-100 rounded overlap-input"></Form.Control>
                 </Container>
                 <Container className="my-3 justify-content-md-center">
                     <Row className="gap-3">

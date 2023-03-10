@@ -17,12 +17,12 @@ const FooterPage = () => {
                     </Col>
                     <Col style={{ width: '100%', minWidth: '250px'}} className="text-end pt-2">
                         <h5 className="mb-3">Peta Web</h5>
-                        <Link to={'/'} className="link-light text-decoration-none">
+                        <a href="./" className="link-light text-decoration-none">
                             <p>Beranda</p>
-                        </Link>
-                        <Link to={'/tentang-kami'} className="link-light text-decoration-none">
+                        </a>
+                        <a href='/tentang-kami' className="link-light text-decoration-none">
                             <p>Tentang Kami</p>
-                        </Link>
+                        </a>
                     </Col>
                 </Row>
             </Container>

@@ -8,7 +8,7 @@ Perkenalkan, saya [Adhitya Bagus Wicaksono](https://github.com/adhityabaguswicak
 
 ### Mekanisme Pembangunan Web Quran Indonesia
 
-Web ini dibuat menggunakan framework CSS Bootstrap dan framework JavaScript React JS selama 5 hari.
+Web ini dibuat menggunakan framework CSS Bootstrap dan framework JavaScript React JS selama 3 hari.
 
 ### Alamat Web Quran Indonesia
 
@@ -16,4 +16,4 @@ Web Quran Indonesia dapat diakses menggunakan tautan berikut ini
 
 https://quran-indonesia.vercel.app/
 
-###### Pembaruan Terakhir: 07 Maret 2023
+###### Pembaruan Terakhir: 10 Maret 2023

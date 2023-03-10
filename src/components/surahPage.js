@@ -7,6 +7,7 @@ import HeaderPage from "./headerPage";
 import FooterPage from "./footerPage";
 import '../style/arabicFont.css';
 import { Helmet } from "react-helmet";
+import '../style/style.css';
 
 const SurahPage = () => {
     const [oneSurah, getOneSurah] = useState();
@@ -206,11 +207,11 @@ const SurahPage = () => {
                 <Helmet>
                     <title>Surah {oneSurah['name']} - Quran Indonesia</title>
                 </Helmet>
-                <Container className="text-success lh-lg">
+                <Container fluid className="text-success lh-lg">
                     <HeaderPage/>
                     <Container className="py-5 text-center">
                         <h1 className="mb-3">
-                            <i>{oneSurah['name']} ({oneSurah['translation']})</i>
+                            {oneSurah['name']} ({oneSurah['translation']})
                         </h1>
                         <h4 className="mb-3">
                             Surat ke-{oneSurah['number']} ({oneSurah['numberOfAyahs']} Ayat)
@@ -246,7 +247,7 @@ const SurahPage = () => {
                                         {isWithTafseer ? "Dengan Tafsir" : "Tanpa Tafsir" }
                                     </ToggleButton>
                                     {isWithTafseer === true && (
-                                        <Form.Select name="tafsir" onChange={(e) => getSelectTafseer(e.target.value)} defaultValue={selectTafseer} className="text-success border-success">
+                                        <Form.Select name="tafsir" onChange={(e) => getSelectTafseer(e.target.value)} defaultValue={selectTafseer} className="text-success border-success overlap-input">
                                             <option value="0">Tafsir Kemenag</option>
                                             <option value="1">Tafsir Quraish</option>
                                             <option value="2">Tafsir Jalalain</option>
@@ -266,7 +267,7 @@ const SurahPage = () => {
                                     </ToggleButton>
                                     <br/>
                                     {isWithMurottal === true && (
-                                        <Form.Select name="murottal" onChange={(e) => getSelectMurottal(e.target.value)} defaultValue={selectMurottal} className="text-success border-success">
+                                        <Form.Select name="murottal" onChange={(e) => getSelectMurottal(e.target.value)} defaultValue={selectMurottal} className="text-success border-success overlap-input">
                                             <option value="0">Syekh Abdullah al-Juhany</option>
                                             <option value="1">Syekh Abdul Muhsin al-Qasim</option>
                                             <option value="2">Syekh Abdurrahman as-Sudais</option>

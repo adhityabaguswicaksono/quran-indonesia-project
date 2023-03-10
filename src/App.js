@@ -3,6 +3,8 @@ import MainPage from './components/mainPage';
 import NotFoundPage from './components/notFound';
 import SurahPage from './components/surahPage';
 import TentangKamiPage from './components/tentangKamiPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style/style.css';
 
 function App() {
   return (

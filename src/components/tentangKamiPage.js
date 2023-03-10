@@ -11,11 +11,11 @@ const TentangKamiPage = () => {
             <Helmet>
                 <title>Tentang Kami - Quran Indonesia</title>
             </Helmet>
-            <Container className="text-success lh-lg">
+            <Container fluid className="text-success lh-lg">
                 <HeaderPage/>
                 <Container className="my-5">
                     <div className="text-center mb-5">
-                        <h1>Tentang Kami</h1>
+                        <h1>Tentang Quran Indonesia</h1>
                     </div>
                     <div className="text-center">
                         <h4 dir="rtl" className="arabic-font mb-3">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h4>
@@ -24,7 +24,7 @@ const TentangKamiPage = () => {
                             Sumber yang saya gunakan untuk mendapatkan ayat al-Quran dalam web ini menggunakan sebuah aset yang berasal 
                             dari <a href="https://github.com/renomureza/quran-api-id/" className="text-decoration-none">Quran API ID</a> oleh <a href="https://github.com/renomureza" className="text-decoration-none">Renova M. Reza</a> berdasarkan 
                             terjemahan dari web resmi <a href="https://quran.kemenag.go.id/" className="text-decoration-none">Quran Kementerian Agama Republik Indonesia</a>.
-                            Web ini dibuat menggunakan <i>framework</i> CSS <a href="https://getbootstrap.com/" className="text-decoration-none">Bootstrap</a> dan <i>framework</i> JavaScript <a href="https://reactjs.org/" className="text-decoration-none">React JS</a> selama 7 hari.
+                            Web ini dibuat menggunakan <i>framework</i> CSS <a href="https://getbootstrap.com/" className="text-decoration-none">Bootstrap</a> dan <i>framework</i> JavaScript <a href="https://reactjs.org/" className="text-decoration-none">React JS</a> selama 3 hari.
                         </p>
                         <p>
                             Semoga dengan adanya web ini, pengguna dapat mudah untuk membaca dan memahami kandungan makna dari al-Quran yang penuh dengan hikmah.
